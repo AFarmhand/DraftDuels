@@ -1,0 +1,459 @@
+* {
+    font-family: "Optima" !important;
+}
+
+/* classes for player card buttons to become the images of the cards*/
+.rock {
+    color: transparent;
+    background: url(./assets/rock.png);
+    background-position: center;
+    width: 144px;
+    height: 252px; 
+    background-size: contain;
+}
+
+.paper {
+    color: transparent;
+    background: url(./assets/paper.png);
+    background-position: center;
+    width: 144px;
+    height: 252px; 
+    background-size: contain;
+}
+
+.scissors {
+    color: transparent;
+    background: url(./assets/scissors.png);
+    background-position: center;
+    width: 144px;
+    height: 252px; 
+    background-size: contain;
+}
+
+.airstrike {
+  color: transparent;
+  background: url(./assets/airstrike.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.amputate {
+  color: transparent;
+  background: url(./assets/amputate.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.armsrace {
+  color: transparent;
+  background: url(./assets/armsrace.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.calladoctor {
+  color: transparent;
+  background: url(./assets/calladoctor.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.cancel {
+  color: transparent;
+  background: url(./assets/cancel.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.chemist {
+  color: transparent;
+  background: url(./assets/chemist.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.elephant {
+  color: transparent;
+  background: url(./assets/elephant.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.epidemic {
+  color: transparent;
+  background: url(./assets/epidemic.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.freshair {
+  color: transparent;
+  background: url(./assets/freshair.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.gamblersconceit {
+  color: transparent;
+  background: url(./assets/gamblersconceit.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.herbalremedy {
+  color: transparent;
+  background: url(./assets/herbalremedy.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.leech {
+  color: transparent;
+  background: url(./assets/leech.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.lumberjack {
+  color: transparent;
+  background: url(./assets/lumberjack.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.medicalkit {
+  color: transparent;
+  background: url(./assets/medicalkit.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.mergerealities {
+  color: transparent;
+  background: url(./assets/mergerealities.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.neurotoxins {
+  color: transparent;
+  background: url(./assets/neurotoxins.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.nighttime {
+  color: transparent;
+  background: url(./assets/nighttime.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.poisonbottle {
+  color: transparent;
+  background: url(./assets/poisonbottle.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.scavenge {
+  color: transparent;
+  background: url(./assets/scavenge.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.sereneforest {
+  color: transparent;
+  background: url(./assets/sereneforest.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.shield {
+  color: transparent;
+  background: url(./assets/shield.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.slash {
+  color: transparent;
+  background: url(./assets/slash.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.stampede {
+  color: transparent;
+  background: url(./assets/stampede.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.streetfood {
+  color: transparent;
+  background: url(./assets/streetfood.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.threeleafclover {
+  color: transparent;
+  background: url(./assets/threeleafclover.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.throwcard {
+  color: transparent;
+  background: url(./assets/throwcard.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.toxicbloom {
+  color: transparent;
+  background: url(./assets/toxicbloom.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.venomsting {
+  color: transparent;
+  background: url(./assets/venomsting.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.witheredpetals {
+  color: transparent;
+  background: url(./assets/witheredpetals.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.workoutroutine {
+  color: transparent;
+  background: url(./assets/workoutroutine.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.rare1 {
+  color: transparent;
+  background: url(./assets/1.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.rare2 {
+  color: transparent;
+  background: url(./assets/2.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.rare3 {
+  color: transparent;
+  background: url(./assets/3.png);
+  background-position: center;
+  width: 144px;
+  height: 252px; 
+  background-size: contain;
+}
+.title {
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+.center {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+  }
+
+.centerColumn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+
+.centerRow {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .centerColumnHide {
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+
+
+
+/* button from https://getcssscan.com/css-buttons-examples */
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+/* body {
+  font-family: 'Share Tech', sans-serif;
+  color: white;
+  background-color: #343a40;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"), linear-gradient(to right top, #343a40, #2b2c31, #211f22, #151314, #000000);
+} */
+
+.progress {
+  height: 1.5rem;
+  overflow: hidden;
+  background-color: grey;
+  border-radius: .25rem;
+}
+.progress-bar {
+  display: inline-block;
+  height: 100%;
+}
+.bg-health {
+  background-color: #d9534f;
+}
+.bg-poison {
+  background-color: #08980d!important;
+}
+.bg-grey {
+  background-color: #999999!important;
+}
+
+
+h1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+h1 span {
+  display: block;
+  font-size: 0.5em;
+  line-height: 1.3;
+}
+h1 em {
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* === HEADING STYLE #1 === */
+.one h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+.one h1:before {
+  width: 28px;
+  height: 5px;
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  margin-left: -14px;
+  background-color: #b80000;
+}
+.one h1:after {
+  width: 100px;
+  height: 1px;
+  display: block;
+  content: "";
+  position: relative;
+  margin-top: 25px;
+  left: 50%;
+  margin-left: -50px;
+  background-color: #b80000;
+}
