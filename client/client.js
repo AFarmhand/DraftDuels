@@ -678,7 +678,7 @@ function resolveCardInteractions(interactionsDict){
     if(interactionsDict['chemist']){
         if(statuses['poisoned'] > 0 )
             playerHP -= 4;
-        playerHP['poisoned'] += 3;
+        statuses['poisoned'] += 3;
     }
     // venomsting, if poision'd get poison'd for 5, else get poison'd for 3
     if(interactionsDict['venomsting']){
