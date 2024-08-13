@@ -33,15 +33,11 @@ CARDS_PER_REG_DRAFT = 3; // cards per draft throughout game
 draft_extra_card = 0; 
 temp_draft_extra_card = 0;
 
-chanceLuckAddsRare = 0.25;
-chanceLuckAddsLegendaryIfNotRare = 0.25;
+chanceLuckAddsRare = 0.2;
+chanceLuckAddsLegendaryIfNotRare = 0.15;
 
 raresInDraft = 1;
 legendariesInDraft = 0;
-
-const chance_of_rares_in_extra_draft = 0.35;
-const chance_of_legendaries_in_extra_draft = 0.25;
-
 
 // this will store all of our cards
 hand = [];
