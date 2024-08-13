@@ -26,7 +26,8 @@ technicalDeck = [
 var deck = [
     ...natureDeck,
     ...poisonDeck,
-    ...neutralDeck
+    ...neutralDeck,
+    ...technicalDeck
 ];
 
 
