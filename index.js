@@ -233,11 +233,11 @@ function determineResult(roomUniqueId){
         // create amount of rares / legendaries in next draft
         // chance sbuffed for testing
         // final will likely be, 1legend = 0.25, 1 rare = 0.33
-        chanceOf1Rare = 0.50;
+        chanceOf1Rare = 0.6;
         chanceOf2RareGiven1Rare = 0.25;
         chanceOf3RareGiven2Rare = 0.25;
-        chanceOf1Legend = 0.5;
-        chanceOf2LegendGiven1Legend = 0.5;
+        chanceOf1Legend = 0.2;
+        chanceOf2LegendGiven1Legend = 0.2;
         rares = 0;
         legendaries = 0;
         // determine if there is 1 rare, 2 or 3
