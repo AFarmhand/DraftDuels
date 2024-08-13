@@ -603,7 +603,7 @@ function resolveCardInteractions(interactionsDict){
         }
     // opponent plays elephant, if they have less than 6 sunlight take 12 dmg
     if(interactionsDict['elephantAttack']){
-        if(player2Statuses['sunlight'] < 6){
+        if(player2Statuses['sunlight'] < 10){
             playerHP -= 16;
         }
     }
@@ -678,7 +678,7 @@ function resolveCardInteractions(interactionsDict){
     if(interactionsDict['chemist']){
         if(statuses['poisoned'] > 0 )
             playerHP -= 4;
-        playerHP['poisioned'] += 3;
+        playerHP['poisoned'] += 3;
     }
     // venomsting, if poision'd get poison'd for 5, else get poison'd for 3
     if(interactionsDict['venomsting']){
