@@ -394,6 +394,7 @@ var toxicbloom = new Card('toxicbloom', 2,
     },
     // theytoxic
     {
+        'shield' : {},
         'base' : {'poison': 3}
     }
 );
