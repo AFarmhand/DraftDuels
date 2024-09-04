@@ -862,28 +862,28 @@ function updateHealthBars(){
     healthBarOpp = document.getElementById("healthBarOpp");
     poisonBarOpp = document.getElementById("poisonBarOpp");
     if(playerHP > 0){
-        // if(statuses['poisoned'] >= playerHP){
-        //     healthBar.style.width = `$0%`; 
-        //     poisonBar.style.width = `${playerHP * 2}%`;        
-        // }
-        // else{
+        if(statuses['poisoned'] > playerHP){
+            healthBar.style.width = `$0%`; 
+            poisonBar.style.width = `${playerHP * 2}%`;        
+        }
+        else{
             healthBar.style.width = `${(playerHP * 2) - (statuses['poisoned'] * 2)}%`; 
             poisonBar.style.width = `${statuses['poisoned'] * 2}%`;
-        // } 
+        } 
     } else {
         healthBar.style.width = `0%`; 
         poisonBar.style.width = `0%`;         
     }
 
     if(opponentHP > 0){
-        // if(player2Statuses['poisoned'] > opponentHP){
-        //     healthBarOpp.style.width = `$0%`; 
-        //     poisonBarOpp.style.width = `${opponentHP * 2}%`;        
-        // }
-        // else{
+        if(player2Statuses['poisoned'] > opponentHP){
+            healthBarOpp.style.width = `$0%`; 
+            poisonBarOpp.style.width = `${opponentHP * 2}%`;        
+        }
+        else{
         healthBarOpp.style.width = `${(opponentHP * 2) - (player2Statuses['poisoned'] * 2)}%`; 
         poisonBarOpp.style.width = `${player2Statuses['poisoned'] * 2}%`; 
-        // }
+        }
     }
     else{
         healthBarOpp.style.width = `0%`; 
