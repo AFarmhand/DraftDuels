@@ -862,7 +862,7 @@ function updateHealthBars(){
     healthBarOpp = document.getElementById("healthBarOpp");
     poisonBarOpp = document.getElementById("poisonBarOpp");
     if(playerHP > 0){
-        if(statuses['poisoned'] * 2 > playerHP){
+        if(statuses['poisoned'] >= playerHP){
             healthBar.style.width = `$0%`; 
             poisonBar.style.width = `${playerHP * 2}%`;        
         }
@@ -876,7 +876,7 @@ function updateHealthBars(){
     }
 
     if(opponentHP > 0){
-        if(player2Statuses['poisoned'] * 2 > opponentHP){
+        if(player2Statuses['poisoned'] > opponentHP){
             healthBarOpp.style.width = `$0%`; 
             poisonBarOpp.style.width = `${opponentHP * 2}%`;        
         }
