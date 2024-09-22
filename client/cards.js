@@ -76,7 +76,7 @@ var stampede = new Card('stampede', 2,
     //stampede to them
     {
         'shield' : {},
-        'base' : {'DMGxSunlight' : -3} 
+        'base' : {'DMGxSunlight' : -2} 
     }
 );
 
